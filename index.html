@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Produkcja sprzętu przemysłowego">
+    <meta name="keywords" content="Sprzęt, Dokumentacja, Betoniarka, Cement, Wyładunek, Projektowanie, Płyty Chodnikowe">
+    <meta name="author" content="GoUP">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Więcejport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="img/logo_transparent_background1.png">
+    <script src="js/script.js"></script>
+    <title>GoUP</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img class="bi me-2" img src="img/logo_transparent_background1.png" alt="mdo" width="32" height="32"></img>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><button type="button" class="nav-link" onClick="clickUslugi()">Usługi</button></li></li>
+        <li class="nav-item"><button type="button" class="nav-link" onClick="clickKontakt();">Kontakt</button></li></li>
+        <li class="nav-item"><button type="button" class="nav-link" onClick="clickProjekty();">Projekty</button></li>
+      </ul>
+    </header>
+  </div>
+  <div class="container-fluid" id="head">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="container col-xxl-10 px-4 py-10">
+              <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                  <div class="col-10 col-sm-8 col-lg-6">
+                      <img src="img/logo3.png" class="d-block mx-lg-auto img-fluid" width="400" height="200" loading="lazy">
+                  </div>
+                  <div class="col-lg-6">
+                      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">GoUP Oleg Gavrylenko</h1>
+                      <h1 class="display-8 text-body-emphasis lh-1 mb-3">Usługi projektowania i organizacji produkcji sprzętu przemysłowego pod klucz</h1>                    
+                      <p class="lead">Tel.: +48 572 348 738</p>
+                      <p class="lead">E-Mail: goup.firm@gmail.com</p>
+                      <p class="lead">Adres: Lipowa 3D, 30-702, Kraków</p>                     
+                      <p class="lead">NIP: 6793263297</p>
+                      <p class="lead">REGON: 524851465</p>
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" onClick="clickKontakt();">Kontakt</button>
+                        <!--<button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>-->
+                      </div>
+                  </div>
+              </div>
+          </div>  
+      </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="album py-5 bg-light" id="uslugi">
+    <div class="container">
+      <h1 class="display-8 text-body-emphasis lh-1 mb-3">Nasze usługi</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img\Projekt.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Projektowanie dokumentacji technicznej</p>
+              <p><small class="text-muted">Opracowanie projektu w SolidWorks.</small></p>
+              <p><small class="text-muted">Analiza wytrzymałości. Modelowanie obciążenia. Obliczenia i wybór jednostki napędowej.</small></p>
+              <p><small class="text-muted">Projektowanie krok po kroku z opłatą za każdy etap.</small></p>
+              <p><small class="text-muted">Możliwość organizacji produkcji.</small></p>
+              <p><small class="text-muted">Certyfikacja EU.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick="clickKontakt();">Więcej</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img\planet1.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Betoniarki i części</p>
+              <p><small class="text-muted">Produkcja mikserów przemysłowych dla betoniarek.</small></p>
+              <p><small class="text-muted">Produkcja łopatek oraz wykładzin według wymagań klienta.</small></p>
+              <p><small class="text-muted">Obsługa gwarancyjna oraz pogwarancyjna elementów szybko zużywalnych.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick="clickKontakt();">Więcej</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img\photo_4ver2.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Produkcja systemów wyładunku i magazynowania materiałów sypkich</p>
+              <p><small class="text-muted">System wyładunku wagonów samowyładowczych:</small></p>
+              <p><small class="text-muted">- Pod koleją;</small></p>
+              <p><small class="text-muted">- Nad koleją;</small></p>
+              <p><small class="text-muted">- Ruchomy wzdłuż pociągu.</small></p>
+              <p><small class="text-muted">Produkcja silosów składanych do 110 ton.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick="clickKontakt();">Więcej</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img\Wezel_dlaPlytki.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Sprzęt dla produkcji płyt chodnikowych</p>
+              <p><small class="text-muted">Monoblok do produkcji mieszanki betonowej dla małych linii do produkcji płyt chodnikowych.</small></p>
+              <p><small class="text-muted">Możliwość kompletacji mikserem obrotowym / planetarnym.</small></p>
+              <p><small class="text-muted">W pełni automatyczny system sterowania dozowaniem oraz produkcji mieszanki.</small></p>
+              <p><small class="text-muted">Łączenie z dodatkowym sprzętem w składzie linii produkcyjnej.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick="clickKontakt();">Więcej</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img\obraz1.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Projektowanie i produkcja konstrukcji metalowych</p>
+              <p><small class="text-muted">Pod klucz – od specyfikacji do produkcji oraz dostawy do klienta.</small></p>
+              <p><small class="text-muted">Konkurencyjne i elastyczne ceny.</small></p>
+              <p><small class="text-muted">Certyfikowana jakość produkcji.</small></p>
+              <p><small class="text-muted">Udział we wspólnych projektach.</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick="clickKontakt();">Więcej</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img\Obraz3.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+
+            <div class="card-body">
+              <p class="card-text">Systemy kontroli siewu zbóż</p>
+              <p><small class="text-muted">Systemy kontroli siewu zbóż</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onClick="clickKontakt();">Więcej</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="b-example-divider"></div>
+  
+  <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="kontakt">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Formularz kontaktowy</h1>
+        <p class="col-lg-10 fs-4">Zostaw nam wiadomość aby dowiedzieć się więcej.</p>
+        <p class="col-lg-10 fs-4">Odpowiemy lub odzwonimy w ciągu kilka godzin.</p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 border rounded-3 bg-body-tertiary" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="2a0ba3a3-a997-4806-87c7-4a1a1959deb8" />
+          <input type="hidden" name="subject" value="Nowa wiadomośc ze strony GoUP">
+          <input type="hidden" name="redirect" value="https://goup24.com.pl/#modal">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Imie" name="name" required>
+            <label for="floatingInput">Imię i Nazwisko</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Firma" name="firm">
+            <label for="floatingInput">Nazwa Firmy</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="Email" name="mail" required>
+            <label for="floatingInput">Adres Email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="tel" class="form-control" id="floatingInput" placeholder="Telefon" name="tel">
+            <label for="floatingInput">Telefon</label>
+          </div>
+          <div class="form-floating mb-3">
+            <textarea type="text" class="form-control" id="floatingInput" placeholder="Text" name="comment" rows="6"></textarea>            
+            <label for="floatingInput">Wiadomość</label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit" onClick="myModal()">Wyslać</button>
+          <hr class="my-4">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal fade show" id="exampleModalDefault" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Wiadomośc wysłana</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Dziękujemy za wiadomość, odpowiemy jak najszybciej!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onClick="exitModal()">Zamknąć</button>
+          <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container px-4 py-5" id="custom-cards">
+    <h1 class="display-8 text-body-emphasis lh-1 mb-3">Klienty</h1>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">SK Polska</h3>
+            <p class="col-lg-10 fs-4">System wyładnku cementu</p>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+              </li>
+              <li class="d-flex align-items-center me-1">
+                <svg class="bi me-2" width="1em" height="1em"><img src="img/planet.svg" alt="mdo" width="32" height="32"></svg>
+                <small>Rzeszów, Polska</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col" id="projekty">
+        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PROMETAL SLOVENSKO</h3>
+            <p class="col-lg-10 fs-4">Betoniarka</p>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+              </li>
+              <li class="d-flex align-items-center me-1">
+                <svg class="bi me-2" width="1em" height="1em"><img src="img/planet.svg" alt="mdo" width="32" height="32"></svg>
+                <small>Senec, Slowacja</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">ROL-MAT BIS</h3>
+            <p class="col-lg-10 fs-4">Cześci dla betoniarki</p>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+              </li>
+              <li class="d-flex align-items-center me-1">
+                <svg class="bi me-2" width="1em" height="1em"><img src="img/planet.svg" alt="mdo" width="32" height="32"></svg>
+                <small>Leszno, Polska</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">DTG Cement</h3>
+            <p class="col-lg-10 fs-4">Dokumentacja techniczna</p>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+              </li>
+              <li class="d-flex align-items-center me-1">
+                <svg class="bi me-2" width="1em" height="1em"><img src="img/planet.svg" alt="mdo" width="32" height="32"></svg>
+                <small>Debrecen, Wengry</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container-fluid">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2024 GoUP</p>
+  
+      <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><img src="img/logo3.png" alt="mdo" width="32" height="32"></svg>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Usługi</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Kontakt</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Projekty</a></li>
+      </ul>
+    </footer>
+  </div>
+
+</body>
+</html>
